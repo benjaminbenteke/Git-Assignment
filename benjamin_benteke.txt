@@ -1,0 +1,16 @@
+ 1007  mv AMM-first AMMI-git
+ 1008  cd AMMI-git
+ 1009  touch identity.txt
+ 1010  nano identity.txt
+ 1011  git init
+ 1012  git config --global user.name "Benjamin benteke"
+ 1013  git config --global user.email "benjamin.benteke@aims-senegal.org"
+ 1014  git status
+ 1015  git commit -m "first"
+ 1016  git add .
+ 1017  git commit -m "first"
+ 1018  git status
+ 1019  git remote add origin https://github.com/benjaminbenteke/Git-Assignment.git
+ 1020  git remote -v
+ 1021  git branch
+ 1022  git push origin master
